@@ -185,7 +185,6 @@ header {
   /* Refer to CSS values by the name of the custom property we assigned it */
   background: black;
   color: var(--white);
-  
 }
 
 .card header {
@@ -193,13 +192,16 @@ header {
   position: absolute;
   margin: -3.4rem 0 1.5rem 0;
   padding: 0.5rem 1rem;
-  border: 2px solid var(--gin);
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
   font-size: 36px;
 }
 
-
+.card:hover,
+.card:hover header {
+  box-shadow: inset 0px 0px 8px white, 0 0 15px white;
+  color: white
+}
 
 .card > p {
   text-align: center;
