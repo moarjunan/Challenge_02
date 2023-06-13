@@ -1,11 +1,4 @@
-/* Create CSS variables at the root of the document to be used throughout the style sheet */
-:root {
-  --white: #fff;
-  --dark-blue: #13293d;
-  --tan: #d8a47f;
-  /* You can use it with any value that is repeated throughout the sheet */
-  --border-radius: 50px;
-}
+
 
 body {
   font-size: 16px;
@@ -29,9 +22,8 @@ h2 {
 header {
   padding: 50px;
   text-align: center;
-  /* Refer to CSS values by the name of the custom property we assigned it */
   background: black;
-  color: var(--white);
+  color: white;
   
 }
 
@@ -57,8 +49,8 @@ nav {
 
 
 .cats:hover {
-  background-color: var(--white);
-  color: var(--dark-blue);
+  background-color: white;
+  color: black;
 }
 
 
@@ -156,8 +148,8 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: var(--dark-blue);
-  color: var(--white);
+  background: black;
+  color: white;
   margin-top: auto;
 }
 
@@ -231,9 +223,8 @@ footer {
 
 header {
   padding: 50px;
-  /* Refer to CSS values by the name of the custom property we assigned it */
   background: black;
-  color: var(--white);
+  color: white;
 }
 
 .card header {
@@ -264,6 +255,41 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+.contact-struc {
+  flex: 1;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contact {
+  display: flex ;
+  padding: 10px;
+  margin: 20px;
+}
+
+.contact > p {
+  text-align: center;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: .5rem;
+  margin: auto;
+}
+
+.contact > h3 {
+  background: black;
+  color: white;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
