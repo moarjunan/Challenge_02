@@ -22,6 +22,7 @@ h2 {
 header {
   padding: 50px;
   text-align: center;
+  /* Refer to CSS values by the name of the custom property we assigned it */
   background: black;
   color: white;
   
@@ -266,29 +267,15 @@ header {
 }
 
 .contact {
-  display: flex ;
+  display: inline ;
   padding: 10px;
   margin: 20px;
 }
 
 .contact > p {
-  text-align: center;
+  text-align: right;
   color: white;
 }
-
-h3{
-  text-align: center;
-  background: black;
-  color: white;
-  font-size: .5rem;
-  margin: auto;
-}
-
-.contact > h3 {
-  background: black;
-  color: white;
-}
-
 
 
 
