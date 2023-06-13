@@ -36,8 +36,8 @@ header {
 
 nav {
   display: flex;
-  background-color: var(--tan);
-  padding: 30px;
+  background-color: transparent;
+  padding: 0px;
   align-items: center;
 }
 
@@ -46,20 +46,14 @@ nav {
 }
 
 .cats {
-  color: var(--dark-blue);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
   margin: auto;
+  color: white;
+  font-size: 2rem;
 }
 
-.catsb {
-  color: var(--dark-blue);
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-  font-size: 40px;
-}
 
 .cats:hover {
   background-color: var(--white);
@@ -74,6 +68,27 @@ nav {
   background-image: url("../images/profile.jpg");
   background-size: contain;
   background-position: center;
+  position: relative;
+}
+
+.darken{
+  filter: brightness(50%);
+}
+
+.big_name {
+  font-size: 4.5rem;
+}
+.nav_desc {
+  font-size: 1.5rem;
+}
+
+.nav-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 main {
