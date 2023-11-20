@@ -1,147 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mo Arjunan's Portfolio</title>
 
-<head>
-  <title>Mukunth</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-</head>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
 
+    <header class="main-header">
+      <h1>Mo Arjunan</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#About-Me">About Me</a>
+          </li>
+          <li>
+            <a href="#Work">Work</a>
+          </li>
+          <li>
+            <a href="#Contact-Me">Contact Me</a>
+          </li>
+          <li>
+            <a href="">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- Navbar and Hero -->
-  <div class="hero" id="Home">
-    <div class="nav-text">
-       <h2 class="big_name">Mukunth Arjunan (Mo) </h2>
-        <p class="nav_desc">Current Data Scientist and future engineer. He/Him.</p>
-        <nav class = "nav">
-            <a class="cats" href="#Home">Home</a>
-            <a class="cats" href="#AboutMe">About Me</a>
-            <a class="cats" href="#Work">Work</a>
-            <a class="cats" href="#Contact">Contact</a>
-        </nav>
-    </div>
-  </div>
-  
-
-
-  <div class="content" id="AboutMe">
-    <h2 class="align-centre">Who  is Mukunth Arjunan?</h2>
-    <div class="about">
-        <img src="./assets/images/about.jpg" 
-          class="float-left" 
-          alt="The candidate and his two dogs!." />
-        
-        <div >
-                    <p>
-                      Mukunth Arjunan is a data scientist from LA but now based in New York City. He graduated from Carnegie Mellon University with double major in Decision Science and Statistics and a minor in Public Policy. He worked as a Data Scientist until recently and is currently looking for work as well making strides towards becoming a more all rounded professional by familiarizing himself with full stack engineering.    
-                    </p>
-                    <p>
-                      He values communication and perseverance above all else in the work place and has strong interpersonal skills. He thoroughly enjoys working with robust data sets and extracting data driven insights to help assess performance and provide recommendations. He has worked with large clients like:
-                    </p>
-                            <ul>
-                                <li>AMC</li>
-                                <li>Amtrak</li>
-                                <li>Best Buy</li>
-                                <li>Wawa</li>
-                                <li>Victoria's Secret</li>
-                                <li>Verizon</li>
-
-                            </ul>
-                          <p>
-                            In his free time, he likes to swim, paint, walk the dogs and spend time in nature or with friends. He is always open to book recommendations and jobs!
-                          </p>
-                </div>
-            </div>
-  </div>
+    <img class="hero"/>
 
 
-  <!-- Body -->
-  <main>
-    <!-- Product Cards -->
-    <div class="products" id="Work">
-      <section class="card">
-        <header>Education</header>
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="./assets/images/education.jpg" alt="Notebook" style="width:350px;height:300px;"/>
-          </div>
-          <div class="card-back">
-            <p>PLACEHOLDER!!!</p>
-          </div>
+    <main>
+      <section id="About-Me" class="About-Me" class="card">
+        <h2>About Me</h2>
+        <p>
+          Mukunth Arjunan is a data scientist from LA but now based in New York City. 
+          He graduated from Carnegie Mellon University with double major in Decision Science 
+          and Statistics and a minor in Public Policy. He worked as a Data Scientist until 
+          recently and is currently looking for work as well making strides towards becoming 
+          a more all rounded professional by familiarizing himself with full stack engineering.
+        </p>
+      </section>
+
+
+      <section id="Work" class="Work card">
+        <h2>Work</h2>
+        <div class="container" id="project-grid">
+          <a class="project-link" target="_blank" href="https://glacial-savannah-65918-6d923ecdf143.herokuapp.com/">
+            <p>JATE: Just Another Text Editor</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/JATE.png?raw=true" alt="JATE Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://note-taker-marjunan-74e0d7b1c17a.herokuapp.com/">
+            <p>Note Taker</p>
+            <img class="project-image" src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png" alt="Note Taker Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://moarjunan.github.io/Daily-Planner/">
+            <p>Daily Planner</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/DailyPlanner.png?raw=true" alt="Daily Planner Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://tech-blog-marjunan-7fd3128d3bed.herokuapp.com/">
+            <p>Tech Blog</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/TechBlog.png?raw=true" alt="Tech Blog Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://655ab9a153e9800008177fd9--stellar-bublanina-f69ab7.netlify.app/">
+            <p>My React Portfolio</p>
+            <img class="project-image" src="https://www.myhealthunlimited.com/wp-content/uploads/2016/07/300x200.png" alt="My React Portfolio Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://moarjunan.github.io/Weather-Dashboard/">
+            <p>Weather Dashboard</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/WeatherDashboard.png?raw=true" alt="Weather Dashboard Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://moarjunan.github.io/Project-1-AirBnB/">
+            <p>CloudBNB</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/CloudBnB.png?raw=true" alt="CloudBNB Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://recipe-engine-58c7b6cc43db.herokuapp.com/">
+            <p>Honey I'm Home</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/HoneyImHome.png?raw=true" alt="Honey I'm Home Project Image"/>
+          </a>
+          <a class="project-link" target="_blank" href="https://quizo-app-cd6cec12f237.herokuapp.com/">
+            <p>Quizo</p>
+            <img class="project-image" src="https://github.com/moarjunan/My-React-Portfolio/blob/main/src/images/Quizo.png?raw=true" alt="Quizo Project Image"/>
+          </a>
         </div>
       </section>
-      <section class="card">
-        <header>Work Experience</header>
-        <div class="card-inner">
-          <div class="card-front">
-           <img src="./assets/images/work.webp" alt="Workstation" style="width:350px;height:300px;/">
-          </div>
-          <div class="card-back">
-            <p>PLACEHOLDER!!!</p>
-          </div>
-        </div>
+      
+      <section id="Contact-Me" class="Contact-Me" class="card">
+        <h2>Contact Me</h2>
+        <ul>
+          <li>+1 (412) 706-1377</li>
+          <li>mukunth.arjunan@gmail.com</li>
+          <li>
+            <a target="blank" href="https://github.com/moarjunan">GitHub</a>
+          </li>
+          <li>
+            <a target="blank" href="https://www.linkedin.com/in/mukunth-arjunan/">LinkedIn</a>
+          </li>
+        </ul>
       </section>
-      <section class="card">
-        <header>Projects</header>
-        <div class="card-inner">
-          <div class="card-front">
-           <img src="./assets/images/project.webp" alt="Group Project" style="width:350px;height:300px;/">
-         </div>
-       <div class="card-back">
-        <p>PLACEHOLDER!!!</p>
-      </div>
-    </div>
-      </section>
-      <section class="card">
-        <header>Freelance</header>
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="./assets/images/freelance.png" alt="Freelance workstation" style="width:350px;height:300px;/">
-          </div>
-       <div class="card-back">
-        <p>PLACEHOLDER!!!</p>
-       </div>
-     </div>
-      </section>
-    </div>
-  </main>
+    </main>
 
- <!-- Contact -->
- <div id="Contact" class="contact-struc">
-      <section class = "contact">   
-      <p style="font-size:18px;"><strong> CONTACT ME</strong> </p>
-      </section>
-      <section class = "contact">
-          <p> Mukunth Arjunan </p>
-      </section>
-      <section class = "contact">
-          <a href="mailto: mukunth.arjunan@gmail.com">mukunth.arjunan@gmail.com</a>
-      </section>
-      <section class = "contact">   
-          <p >+1 412-706-1377</p>
-      </section>
-      <section class = "contact">
-          <p href="">New York, NY, USA</p>
-      </section>
-      <section class = "contact">
-          <a href="https://github.com/moarjunan">https://github.com/moarjunan</a>
-      </section>
-  </div>
+    <footer>
+      <p>&copy; Copyright Mo</p>
+    </footer>
 
-
-
-
-
-  <!-- Footer -->
-  <footer>
-    <h4>
-     Thank you!
-    </h4>
-  </footer>
-</body>
-
+  </body>
 </html>
