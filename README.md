@@ -8,6 +8,7 @@ Bootcamp Challenge 02: Advanced-CSS
 
 This repository was created to record the creation of the framework for my first portfolio as well as to complete Challenge 02: Advanced-CSS. The primary motivation for this repo  is to create a portfolio website that can be used in the future for recruitment. The secondary motivation for this repo was to provide easy access to a clear and completed work flow of the changes made to the code to meet the assignment critieria. The primary problem we aim to solve is to provide a landing page for any recruiters.
 
+https://moarjunan.github.io/My-Portfolio/
 
 ## Installation
 
